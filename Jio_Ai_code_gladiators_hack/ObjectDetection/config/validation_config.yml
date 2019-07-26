@@ -1,0 +1,17 @@
+train:
+  # Run name for the training session.
+  run_name: parking_detector
+  # Directory in which model checkpoints & summaries (for Tensorboard) will be saved.
+  job_dir: ../jobs/
+
+dataset:
+  type: object_detection
+  # From which directory to read the dataset.
+  dir: ../out/
+
+model:
+  type: fasterrcnn
+  network:
+    # Total number of classes to predict.
+    num_classes: 2
+
