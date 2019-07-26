@@ -1,4 +1,4 @@
-# Jio AI code gladiators hackathon - 2019
+# Reliance Jio AI code gladiators hackathon - 2019
 contest url: https://www.techgig.com/codegladiators/artificial-intelligence
 
 ## Problem statement: Given a parking lot image, predict possible parking locations for vehicles.
