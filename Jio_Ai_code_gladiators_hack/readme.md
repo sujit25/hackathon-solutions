@@ -5,7 +5,9 @@ contest url: https://www.techgig.com/codegladiators/artificial-intelligence
 
 ## Solutions contains 2 approaches:
 1. ImageClassifier - Trained CNN from scratch using keras (tensorflow backend) for classifying patch of parking images into 2 classes -busy/free slot.
-2. ObjectDetection - Trained FasterRCNN for identifying possible parking locations in given parking image and predicting its availability.
+2. ObjectDetection - Trained FasterRCNN for identifying possible parking locations in given parking image and predicting its availability. Faster RCNN model has been trained using opensource tool Luminoth(https://luminoth.ai/).
+
+All files (including model, presentation, data etc) for approach 2 can be downloaded from http://tiny.cc/mwobaz 
 
 ## References
 - Dataset url: http://cnrpark.it/dataset/CNRPark-Patches-150x150.zip
